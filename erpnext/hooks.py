@@ -1,4 +1,4 @@
-from __future__ import unicode_literals
+﻿from __future__ import unicode_literals
 from frappe import _
 
 app_name = "erpnext"
@@ -198,6 +198,8 @@ doc_events = {
 	'Address': {
 		'validate': 'erpnext.regional.india.utils.validate_gstin_for_india'
 	}
+	
+	
 }
 
 scheduler_events = {

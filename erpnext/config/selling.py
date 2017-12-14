@@ -1,4 +1,4 @@
-from __future__ import unicode_literals
+﻿from __future__ import unicode_literals
 from frappe import _
 
 def get_data():
@@ -300,26 +300,6 @@ def get_data():
 					"type": "doctype",
 					"name": "SMS Settings",
 					"description": _("Setup SMS gateway settings")
-				},
-			]
-		},
-		{
-			"label": _("Help"),
-			"items": [
-				{
-					"type": "help",
-					"label": _("Customer and Supplier"),
-					"youtube_id": "anoGi_RpQ20"
-				},
-				{
-					"type": "help",
-					"label": _("Sales Order to Payment"),
-					"youtube_id": "7AMq4lqkN4A"
-				},
-				{
-					"type": "help",
-					"label": _("Point-of-Sale"),
-					"youtube_id": "4WkelWkbP_c"
 				},
 			]
 		},

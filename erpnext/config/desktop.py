@@ -5,6 +5,13 @@ from frappe import _
 
 def get_data():
 	return [
+      {
+			"module_name": "Courier",
+			"color": "#c0392b",
+			"icon": "fa fa-shopping-cart",
+			"icon": "octicon octicon-briefcase",
+			"type": "module"
+		},
 		{
 			"module_name": "Item",
 			"_doctype": "Item",
